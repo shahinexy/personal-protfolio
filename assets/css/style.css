@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    overflow: hidden;
+}
+
+/* ===== Typography =====  */
+
+h1{
+    font-weight: bolder;
+}
+.display-5{
+    font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+}
+h3{
+    font-weight: bolder;
+}
+h4{
+    font-weight: bolder;
+}
+h5{
+    font-weight: bolder;
+}
+h6{
+    font-weight: bolder;
+}
+.main_colour{
+    color: #f46d2d;
+}
+.second_colour{
+    color: #dd3e3e;
+}
+
+.hover_effect:hover{
+    color: #f46d2d;
+}
+.second_hover_effect:hover{
+    color: #dd3e3e;
+}
+samp{
+    color: #e36fb6;
+    font-weight: bolder;
+}
+.second_head{
+    text-decoration: underline #dd3e3e;
+}
+/* ===== End Typography =====  */
+
+/* ======== for all navbar ========= */
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding:0px 60px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.head{
+    border-bottom: 2px solid #f46d2d;
+}
+
+/* ========== home ====== */
+.benar img{
+    border: 3px solid #dbd0e3;
+    box-shadow: 0rem 0rem 2rem 0rem #e36fb6;
+
+}
+
+.img_border img{
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    transition: all  0.4s;
+    box-shadow: 0rem 0rem 2rem 0.3rem #e36fb6;
+}
+.img_border img:hover{
+    border: 10px solid #dbd0e3;
+    box-shadow: 0rem 0rem 2rem 1rem #ffffff;
+
+}
+.input{
+    color: #f46d2d;
+}
+/* ========== End home ====== */
+
+
+
+/* =================================== about ================================ */
+/* section 1  */
+.head img{
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    transition: all  0.4s;
+    box-shadow: 0rem 0rem 2rem 0.3rem #e36fb6;
+}
+
+
+/*.............. section 2 ..............*/
+.skill  {
+    border: 10px solid #f46d2d;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 4rem 0.3rem #e36fb6;
+
+}
+.main_box .box h1{
+    border: 10px solid #f46d2d;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 4rem 0.3rem #e36fb6;
+}
+.from_text{
+    font-weight: bold;
+}
+.s2_col{
+    position: relative;
+}
+.s2_col::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-top:  3px solid #dd3e3e;
+    border-left:  3px solid #dd3e3e;
+    border-right: 3px solid #dd3e3e;
+    left: 0;
+}
+.s2_col::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-bottom:  3px solid #dd3e3e;
+    border-right:  3px solid #dd3e3e;
+    border-left: 3px solid #dd3e3e;
+    top: 70%;
+    right: 0;
+}
+
+/*............. section3 ......... */
+.col_bg{
+    background-color: #ff9250;
+    transition: 0.5s;
+}
+.col_bg{
+    position: relative;
+}
+.col_bg:hover{
+    background-color: #F37335;
+}
+.col_bg::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0px;
+    border: 0px solid #dd3e3e;
+    left: 0;
+    transition: 0.5s;
+    
+}
+.col_bg::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0px;
+    border: 0px solid #e36fb6;
+    right: 0;
+    transition: width 0.5s;
+    
+}
+.col_bg:hover:before{
+    width: 100%;
+    border: 1px solid #dd3e3e;
+}
+.col_bg:hover::after{
+    width: 100%;
+    border: 1px solid #f46d2d;
+}
+
+/* section 4  */
+.carousel-indicators{
+    margin: 0px;
+}
+.slider_img img{
+    border: 1px solid #dd3e3e;
+    border-radius: 100%;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #dd3e3e !important;
+    border-bottom: 0px;
+}
+/* ================================== End about =========================== */
+
+/* =============================== resume ============================= */
+
+/*................ section 1 ............ */
+.skill_head h1{
+    border-bottom: 2px solid #f46d2d;
+}
+.progress-bar{
+    background: #dd3e3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f46d2d, #dd3e3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f46d2d, #dd3e3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+    
+}
+.btn{
+    background-color: #f46d2d;
+}
+.btn:hover{
+    background-color: #dd3e3e;
+}
+.second_btn{
+    background-color: #dd3e3e; 
+}
+.second_btn:hover{
+    background-color: #f46d2d; 
+}
+
+/*............... section 2 ................  */
+
+.education{
+    position: relative;
+}
+.education::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    border: 1px solid #dd3e3e;
+    left: 20px;
+
+}
+.education::after{
+    content: '';
+    position: absolute;
+    width: 0px ;
+    height: 0px;
+    border: 1px solid #dd3e3e;
+    bottom: 0px;
+    margin-left: 20px;
+    transition:  0.5s;
+
+}
+.education:hover:after{
+    width: 50%;
+    border: 1px solid #dd3e3e;
+
+}
+/* ================================ End resume ========================== */
+
+/* ======================================= protfolio ========================= */
+/*........... section 2.............  */
+.figure{
+    background-color: #F37335;
+    border: 2px solid #dbd0e3;
+    box-shadow: 0rem 0rem 2rem 0rem #e36fb6;
+    transition: all 0.5s ;
+}
+.figure:hover{
+    transform: scale(1.1);
+    background-color: #dd3e3e;
+}
+.figure-caption{
+    color: #ffffff;
+}
+.fa-fire-flame-curved:hover{
+    color: #dd3e3e !important;
+}
+.figure{
+    position: relative;
+}
+.figure::after{
+    content: 'More info';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #dd3e3e;
+    width: 70%;
+    height: 12%;
+    bottom: 0px;
+    padding-left: 10px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.figure:hover:after{
+    opacity: 1;
+}
+/* ======================================= End protfolio ========================= */
+
+/* =========================================== blog ============================== */
+.card-img-top{
+    transition: all 0.5s;
+}
+.card-img-top:hover{
+    transform: scale(1.06);
+
+}
+.card{
+    border: 2px solid #dd3e3e;
+    overflow: hidden;
+    background-color: #dbd0e3;
+}
+.card-body{
+    border-top:  2px solid #dd3e3e;
+
+}
+/* =========================================== End blog ============================== */
+
+/* =============================================== contact ============================= */
+.left_border{
+    border-left: 2px solid #dd3e3e;
+}
+.form-control{
+    background-color: #dbd0e3;
+}
+.socil{
+    transition: all 0.5s;
+}
+.socil:hover{
+    transform: rotate(30deg);
+}
+.third_btn{
+    background-color: #dbd0e3;
+}
+/* =============================================== End contact ============================= */
+
